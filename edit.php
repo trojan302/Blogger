@@ -66,7 +66,7 @@ for ($i=0; $i < count($Github['repo_url']) ; $i++) {
 
 echo "<div style='margin-bottom:10px;padding:10px;width:20%;margin-right:30px;'>";	
 	echo "<h2>".strtoupper($Github['repo_url'][$i])."</h2>";
-	echo "<img src='https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png' width='100%'>";
+	echo "<img src='images/github.png' width='100%'>";
 	echo "<p>".$Github['description'][$i]."<p>";
 	echo "<small>".$Github['created_at'][$i]."</small><br>";
 	echo "Clone Repo URL : <br><code style='padding:2px 5px;border-radius:5px;background-color:lightgrey;'>" . $Github['clone_url'][$i] . "</code><br><br>";
